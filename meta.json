@@ -2,13 +2,145 @@
   "name": "bamboo_websocket",
   "url": "https://github.com/obemaru4012/bamboo_websocket",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "bamboo_websocket",
+      "version": "0.1.0",
+      "author": "obemaru4012",
+      "desc": "This is a simple implementation of a WebSocket server with 100% Nim.",
+      "license": "MIT",
+      "skipDirs": [
+        "tests",
+        "example"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.8",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.8"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/0.1.0"
+    },
+    {
+      "name": "bamboo_websocket",
+      "version": "0.2.0",
+      "author": "obemaru4012",
+      "desc": "This is a simple implementation of a WebSocket server with 100% Nim.",
+      "license": "MIT",
+      "skipDirs": [
+        "tests",
+        "example"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.8",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.8"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/0.2.0"
+    },
+    {
+      "name": "bamboo_websocket",
+      "version": "0.2.1",
+      "author": "obemaru4012",
+      "desc": "This is a simple implementation of a WebSocket server with 100% Nim.",
+      "license": "MIT",
+      "skipDirs": [
+        "tests",
+        "example"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.8",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.8"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/0.2.1"
+    }
+  ],
   "description": "This is a simple implementation of a WebSocket server with 100% Nim.",
   "license": "MIT",
   "web": "https://github.com/obemaru4012/bamboo_websocket",
   "refs": [
-    "fatal: unable to access 'https://github.com/obemaru4012/bamboo_websocket/': SSL connection timeout",
+    "refs/heads/0.1.0",
+    "refs/heads/0.2.0",
+    "refs/heads/0.2.1",
+    "refs/heads/master",
+    "refs/tags/0.1.0",
+    "refs/tags/0.2.0",
+    "refs/tags/0.2.1",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "bamboo_websocket",
+      "version": "0.2.1",
+      "author": "obemaru4012",
+      "desc": "This is a simple implementation of a WebSocket server with 100% Nim.",
+      "license": "MIT",
+      "skipDirs": [
+        "tests",
+        "example"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.4.8",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.4.8"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
