@@ -39,6 +39,22 @@
   inputs."bamboo_websocket-0_2_1".inputs.nixpkgs.follows = "nixpkgs";
   inputs."bamboo_websocket-0_2_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."bamboo_websocket-0_2_2".dir   = "0_2_2";
+  inputs."bamboo_websocket-0_2_2".owner = "nim-nix-pkgs";
+  inputs."bamboo_websocket-0_2_2".ref   = "master";
+  inputs."bamboo_websocket-0_2_2".repo  = "bamboo_websocket";
+  inputs."bamboo_websocket-0_2_2".type  = "github";
+  inputs."bamboo_websocket-0_2_2".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."bamboo_websocket-0_2_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."bamboo_websocket-0_2_3".dir   = "0_2_3";
+  inputs."bamboo_websocket-0_2_3".owner = "nim-nix-pkgs";
+  inputs."bamboo_websocket-0_2_3".ref   = "master";
+  inputs."bamboo_websocket-0_2_3".repo  = "bamboo_websocket";
+  inputs."bamboo_websocket-0_2_3".type  = "github";
+  inputs."bamboo_websocket-0_2_3".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."bamboo_websocket-0_2_3".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
