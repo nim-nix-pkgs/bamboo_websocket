@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "0_1_0",
-        "lastModified": 1652791295,
-        "narHash": "sha256-uX5HS3Sm1/8MPD0x7zCrpxZzO6ES7vbsewCXEqoWnXI=",
+        "lastModified": 1653686367,
+        "narHash": "sha256-BK0NKrW+Gl2iNB7oniRcdJGFV7jcuKLtuEYoyFLSZiI=",
         "owner": "nim-nix-pkgs",
         "repo": "bamboo_websocket",
-        "rev": "c5f85504557b3a4d24acb4a6eec47f9d9a658c4a",
+        "rev": "6f8acdae7e83d27bb4a65fa216a2db90940a2ff5",
         "type": "github"
       },
       "original": {
@@ -39,11 +39,11 @@
       },
       "locked": {
         "dir": "0_2_0",
-        "lastModified": 1652791295,
-        "narHash": "sha256-uX5HS3Sm1/8MPD0x7zCrpxZzO6ES7vbsewCXEqoWnXI=",
+        "lastModified": 1653686367,
+        "narHash": "sha256-BK0NKrW+Gl2iNB7oniRcdJGFV7jcuKLtuEYoyFLSZiI=",
         "owner": "nim-nix-pkgs",
         "repo": "bamboo_websocket",
-        "rev": "c5f85504557b3a4d24acb4a6eec47f9d9a658c4a",
+        "rev": "6f8acdae7e83d27bb4a65fa216a2db90940a2ff5",
         "type": "github"
       },
       "original": {
@@ -66,15 +66,69 @@
       },
       "locked": {
         "dir": "0_2_1",
-        "lastModified": 1652791295,
-        "narHash": "sha256-uX5HS3Sm1/8MPD0x7zCrpxZzO6ES7vbsewCXEqoWnXI=",
+        "lastModified": 1653686367,
+        "narHash": "sha256-BK0NKrW+Gl2iNB7oniRcdJGFV7jcuKLtuEYoyFLSZiI=",
         "owner": "nim-nix-pkgs",
         "repo": "bamboo_websocket",
-        "rev": "c5f85504557b3a4d24acb4a6eec47f9d9a658c4a",
+        "rev": "6f8acdae7e83d27bb4a65fa216a2db90940a2ff5",
         "type": "github"
       },
       "original": {
         "dir": "0_2_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "bamboo_websocket",
+        "type": "github"
+      }
+    },
+    "bamboo_websocket-0_2_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-bamboo_websocket-0_2_2": "src-bamboo_websocket-0_2_2"
+      },
+      "locked": {
+        "dir": "0_2_2",
+        "lastModified": 1653686367,
+        "narHash": "sha256-BK0NKrW+Gl2iNB7oniRcdJGFV7jcuKLtuEYoyFLSZiI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "bamboo_websocket",
+        "rev": "6f8acdae7e83d27bb4a65fa216a2db90940a2ff5",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_2_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "bamboo_websocket",
+        "type": "github"
+      }
+    },
+    "bamboo_websocket-0_2_3": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-bamboo_websocket-0_2_3": "src-bamboo_websocket-0_2_3"
+      },
+      "locked": {
+        "dir": "0_2_3",
+        "lastModified": 1653686367,
+        "narHash": "sha256-BK0NKrW+Gl2iNB7oniRcdJGFV7jcuKLtuEYoyFLSZiI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "bamboo_websocket",
+        "rev": "6f8acdae7e83d27bb4a65fa216a2db90940a2ff5",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_2_3",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "bamboo_websocket",
@@ -93,11 +147,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652791295,
-        "narHash": "sha256-uX5HS3Sm1/8MPD0x7zCrpxZzO6ES7vbsewCXEqoWnXI=",
+        "lastModified": 1653686367,
+        "narHash": "sha256-BK0NKrW+Gl2iNB7oniRcdJGFV7jcuKLtuEYoyFLSZiI=",
         "owner": "nim-nix-pkgs",
         "repo": "bamboo_websocket",
-        "rev": "c5f85504557b3a4d24acb4a6eec47f9d9a658c4a",
+        "rev": "6f8acdae7e83d27bb4a65fa216a2db90940a2ff5",
         "type": "github"
       },
       "original": {
@@ -145,6 +199,8 @@
         "bamboo_websocket-0_1_0": "bamboo_websocket-0_1_0",
         "bamboo_websocket-0_2_0": "bamboo_websocket-0_2_0",
         "bamboo_websocket-0_2_1": "bamboo_websocket-0_2_1",
+        "bamboo_websocket-0_2_2": "bamboo_websocket-0_2_2",
+        "bamboo_websocket-0_2_3": "bamboo_websocket-0_2_3",
         "bamboo_websocket-master": "bamboo_websocket-master",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs"
@@ -197,6 +253,40 @@
       "original": {
         "owner": "obemaru4012",
         "ref": "refs/tags/0.2.1",
+        "repo": "bamboo_websocket",
+        "type": "github"
+      }
+    },
+    "src-bamboo_websocket-0_2_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653445047,
+        "narHash": "sha256-VMVF9aoD5hQLfRMGJqAQ9KDuC/FAu/nlKyJuyEUvezQ=",
+        "owner": "obemaru4012",
+        "repo": "bamboo_websocket",
+        "rev": "fbdb6e54212d220fb1ff72aa9adf57723ac0ce93",
+        "type": "github"
+      },
+      "original": {
+        "owner": "obemaru4012",
+        "ref": "refs/tags/0.2.2",
+        "repo": "bamboo_websocket",
+        "type": "github"
+      }
+    },
+    "src-bamboo_websocket-0_2_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653527208,
+        "narHash": "sha256-uU+RYEOldDWaj7Xn0i3HaQG6QKGftTndiI1j9Jt3k04=",
+        "owner": "obemaru4012",
+        "repo": "bamboo_websocket",
+        "rev": "55ad5a4f3afaaff00b6e13daf62ab8d3391971ac",
+        "type": "github"
+      },
+      "original": {
+        "owner": "obemaru4012",
+        "ref": "refs/tags/0.2.3",
         "repo": "bamboo_websocket",
         "type": "github"
       }
